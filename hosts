@@ -28,8 +28,8 @@ oreg_auth_password=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIzOTE0ODZlN2E5ZjU0ZjhiYmRkZDNk
 # or to one or all of the masters defined in the inventory if no load
 # balancer is present.
 openshift_master_cluster_method=native
-openshift_master_cluster_hostname=openshift-internal.entelgy.local
-openshift_master_cluster_public_hostname=openshift-cluster.entelgy.local
+openshift_master_cluster_hostname=master.entelgy.local
+openshift_master_cluster_public_hostname=master.entelgy.local
 
 # host group for masters
 [masters]
